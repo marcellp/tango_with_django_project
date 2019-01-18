@@ -74,6 +74,7 @@ TEMPLATES = [
 STATICFILES_DIRS = [STATIC_DIR, ]
 
 MEDIA_ROOT = MEDIA_DIR
+
 MEDIA_URL = '/media/'
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
