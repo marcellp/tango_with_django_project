@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+
+<html>
+	<head>
+		<title>About Rango</title>
+	</head>
+	<body>
+		<h1>About</h1>
+		<div>
+			Howdy partner! <br />
+			This tutorial has been put together by <strong>{{ author }}</strong><br />
+		</div>
+		<div>
+			<a href="/rango/">Back to the home page</a><br />
+			<img src="{{ MEDIA_URL}}cat.jpg" alt="Picture of a feline" /> 
+		</div>
+	</body>
+</html>
